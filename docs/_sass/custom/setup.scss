@@ -1,0 +1,78 @@
+
+//############ Main ############
+
+.main-header  { height:5rem; max-height:5rem; }
+
+//main content
+
+
+.main-content-wrap {
+    padding-right: 8rem;
+    padding-left: 4rem;
+  }
+
+.main-content {
+color: #E7E7E7;
+font-size: 16px;
+font-style: normal;
+font-weight: 200;
+line-height: 1.75; /* 160% */
+}
+
+
+.main-content .h1 {
+  color: #E7E7E7;
+  font-family: "Vault Alarm";
+  font-weight: 600;
+  font-size: 36px;
+  font-style: normal;
+  line-height: 2 !default;
+  margin-top:0.1em;
+  margin-bottom:0.5em;
+}
+
+
+
+
+//############ Left nav ############
+
+.site-header { height:5rem; max-height:5rem; min-height: 5rem;}
+
+.site-logo { width:65%; height:65%; }
+
+.nav-category { 
+  color: #B0B0AB;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+  
+}
+
+
+.nav-list-item {
+  color: #DE7C21;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+
+.nav-list-link {
+  color: #BBBBB6;
+  
+  font-family: "Amazon Ember";
+  font-size: 14px;
+  font-style: normal;
+	font-weight: 200;
+  line-height: 36px; /* 225% */
+}
+
+.nav-list .nav-list-item .nav-list-link.active {
+        font-weight: 400;
+        color: #DE7C21;
+        text-decoration: none;
+      }
