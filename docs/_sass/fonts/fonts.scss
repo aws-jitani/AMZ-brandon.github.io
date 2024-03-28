@@ -96,3 +96,25 @@
 	font-weight:100;
 	font-style:italic;
 }
+
+//############ vault ############
+
+//Regular
+@font-face {
+	font-family: 'Vault Alarm';
+	src: url('VaultAlarm-Regular.otf') format('truetype'),
+	url('VaultAlarm-Regular.woff') format('woff'),
+	url('VaultAlarm-Regular.woff2') format('woff2');
+	font-weight:normal;
+	font-style:normal;
+}
+
+//Sharp
+@font-face {
+	font-family: 'Vault Alarm';
+	src: url('VaultAlarm-Sharp.otf') format('truetype'),
+	url('VaultAlarm-Sharp.woff') format('woff'),
+	url('VaultAlarm-Sharp.woff2') format('woff2');
+	font-weight:lighter;
+	font-style:normal;
+}
