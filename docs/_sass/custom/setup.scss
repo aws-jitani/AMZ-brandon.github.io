@@ -35,15 +35,19 @@ line-height: 1.75; /* 160% */
 
 
 //############ Left nav ############
-.side-bar { background-color:#0C0C0D;}
+.side-bar { 
+	background-color:#0C0C0D;
+}
 
 .site-header { height:5rem; max-height:5rem; min-height: 5rem;}
 
 //.site-logo { width:65%; height:65%; }
 
-.site-title {height:80%;}
+.site-title .lh-tight .site-logo {
+	height:80%;
+}
 
-.site-nav { 
+#site-nav .site-nav { 
 	padding-top: 1.25rem;
 }
 
