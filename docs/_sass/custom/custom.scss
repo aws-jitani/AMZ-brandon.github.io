@@ -12,12 +12,8 @@ $header-height: 5rem !default;
 
 //############ Main ############
 
-.main-header  { height:5rem; max-height:5rem; }
-
-.main-content-wrap {
-    padding-right: 8rem;
-    padding-left: 4rem;
-  }
+//.main-header  { height:5rem; max-height:5rem; }
+//.main-content-wrap {  padding-right: 8rem;  padding-left: 4rem; }
 
 .main-content {
 color: #E7E7E7;
@@ -66,6 +62,7 @@ line-height: 1.75; /* 160% */
   line-height: 24px;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
+	border-bottom:0;
   
 }
 
