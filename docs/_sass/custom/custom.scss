@@ -96,19 +96,21 @@ line-height: 1.75; /* 160% */
       }
 
 
+
+
 //############ import font ############
 
 //Regular
 @font-face {
 	font-family: "Amazon Ember";
-	src: url("font/AmazonEmber_Rg.ttf") format("truetype");
+	src: url("/font/AmazonEmber_Rg.ttf") format("truetype");
 	font-weight:normal;
 	font-style:normal;
 }
 
 @font-face {
 	font-family: "Amazon Ember";
-	src: url("font/AmazonEmber_RgIt.ttf") format("truetype");
+	src: url("/font/AmazonEmber_RgIt.ttf") format("truetype");
 	font-weight:normal;
 	font-style:italic;
 }
@@ -117,14 +119,14 @@ line-height: 1.75; /* 160% */
 //Medium
 @font-face {
 	font-family: "Amazon Ember";
-	src: url("font/Amazon-Ember-Medium.ttf") format("truetype");
+	src: url("/font/Amazon-Ember-Medium.ttf") format("truetype");
 	font-weight:bold;
 	font-style:normal;
 }
 
 @font-face {
 	font-family: "Amazon Ember";
-	src: url("font/Amazon-Ember-MediumItalic.ttf") format("truetype");
+	src: url("/font/Amazon-Ember-MediumItalic.ttf") format("truetype");
 	font-weight:bold;
 	font-style:italic;
 }
@@ -133,14 +135,14 @@ line-height: 1.75; /* 160% */
 //Bold
 @font-face {
 	font-family: "Amazon Ember";
-	src: url("font/AmazonEmber_Bd.ttf") format("truetype");
+	src: url("/font/AmazonEmber_Bd.ttf") format("truetype");
 	font-weight:bolder;
 	font-style:normal;
 }
 
 @font-face {
 	font-family: "Amazon Ember";
-	src: url("font/AmazonEmber_BdIt.ttf") format("truetype");
+	src: url("/font/AmazonEmber_BdIt.ttf") format("truetype");
 	font-weight:bolder;
 	font-style:italic;
 }
@@ -151,14 +153,14 @@ line-height: 1.75; /* 160% */
 
 @font-face {
 	font-family: "Amazon Ember";
-	src: url("font/AmazonEmber_He.ttf") format("truetype");
+	src: url("/font/AmazonEmber_He.ttf") format("truetype");
 	font-weight:900;
 	font-style:normal;
 }
 
 @font-face {
 	font-family: "Amazon Ember";
-	src: url("font/AmazonEmber_HeIt.ttf") format("truetype");
+	src: url("/font/AmazonEmber_HeIt.ttf") format("truetype");
 	font-weight:900;
 	font-style:italic;
 }
@@ -167,28 +169,28 @@ line-height: 1.75; /* 160% */
 //Light
 @font-face {
 	font-family: "Amazon Ember";
-	src: url("font/AmazonEmber_Lt.ttf") format("truetype");
+	src: url("/font/AmazonEmber_Lt.ttf") format("truetype");
 	font-weight:lighter;
 	font-style:normal;
 }
 @font-face {
 	font-family: "Amazon Ember";
-	src: url("font/AmazonEmber_LtIt.ttf") format("truetype");
+	src: url("/font/AmazonEmber_LtIt.ttf") format("truetype");
 	font-weight:lighter;
 	font-style:italic;
 }
 
 
 //Thin
-font-face {
+@font-face {
 	font-family: "Amazon Ember";
-	src: url("font/AmazonEmber_Th.ttf") format("truetype");
+	src: url("/font/AmazonEmber_Th.ttf") format("truetype");
 	font-weight:100;
 	font-style:normal;
 }
-font-face {
+@font-face {
 	font-family: "Amazon Ember";
-	src: url("font/AmazonEmber_ThIt.ttf") format("truetype");
+	src: url("/font/AmazonEmber_ThIt.ttf") format("truetype");
 	font-weight:100;
 	font-style:italic;
 }
