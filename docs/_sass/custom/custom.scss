@@ -13,7 +13,7 @@ $header-height: 5rem !default;
 
 //############ Main ############
 
-//.main-header  { height:5rem; max-height:5rem; }
+.main-header  { height:5rem; max-height:5rem; }
 //.main-content-wrap {  padding-right: 8rem;  padding-left: 4rem; }
 
 .main-content {
@@ -41,7 +41,7 @@ line-height: 1.75; /* 160% */
 
 //############ Left nav ############
 //.side-bar { background-color:#0C0C0D;}
-//.site-header { height:5rem; max-height:5rem; min-height: 5rem;} replaced by $header-height
+.site-header { height:5rem; max-height:5rem; min-height: 5rem;} replaced by $header-height
 //.site-logo { width:65%; height:65%; } 
 
 .site-title .lh-tight .site-logo {
