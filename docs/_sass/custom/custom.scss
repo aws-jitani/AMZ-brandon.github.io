@@ -80,7 +80,7 @@ $header-height: 5rem !default;
 .site-title {
 	.lh-tight {
 		.site-logo {
-	height:80%;
+			height:80%;
 		}
 	}
 }
@@ -90,16 +90,15 @@ $header-height: 5rem !default;
 }
 
 .nav-category { 
-  color: #B0B0AB;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
-  text-transform: uppercase;
-  margin-bottom: 0rem;
-  margin-top: 1.5rem;
-  border-bottom:0;
-  
+	color: #B0B0AB;
+	font-size: 0.8rem !important;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+	margin-bottom: 0rem;
+	margin-top: 1.5rem;
+	border-bottom:0;  
 }
 
 
