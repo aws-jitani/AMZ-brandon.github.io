@@ -1,17 +1,19 @@
+@import "../../docs/_sass/fonts/fonts";
+
 
 //############ import font ############
 
 //Regular
 @font-face {
 	font-family: 'Amazon Ember';
-	src: url('/fonts/AmazonEmber_Rg.ttf') format('truetype');
+	src: url('./AmazonEmber_Rg.ttf') format('truetype');
 	font-weight:normal;
 	font-style:normal;
 }
 
 @font-face {
 	font-family: 'Amazon Ember';
-	src: url('/fonts/AmazonEmber_RgIt.ttf') format('truetype');
+	src: url('./AmazonEmber_RgIt.ttf') format('truetype');
 	font-weight:normal;
 	font-style:italic;
 }
@@ -20,14 +22,14 @@
 //Medium
 @font-face {
 	font-family: 'Amazon Ember';
-	src: url('/fonts/Amazon-Ember-Medium.ttf') format('truetype');
+	src: url('./Amazon-Ember-Medium.ttf') format('truetype');
 	font-weight:bold;
 	font-style:normal;
 }
 
 @font-face {
 	font-family: 'Amazon Ember';
-	src: url('/fonts/Amazon-Ember-MediumItalic.ttf') format('truetype');
+	src: url('./Amazon-Ember-MediumItalic.ttf') format('truetype');
 	font-weight:bold;
 	font-style:italic;
 }
@@ -36,14 +38,14 @@
 //Bold
 @font-face {
 	font-family: 'Amazon Ember';
-	src: url('/fonts/AmazonEmber_Bd.ttf') format('truetype');
+	src: url('./AmazonEmber_Bd.ttf') format('truetype');
 	font-weight:bolder;
 	font-style:normal;
 }
 
 @font-face {
 	font-family: 'Amazon Ember';
-	src: url('/fonts/AmazonEmber_BdIt.ttf') format('truetype');
+	src: url('./AmazonEmber_BdIt.ttf') format('truetype');
 	font-weight:bolder;
 	font-style:italic;
 }
@@ -54,14 +56,14 @@
 
 @font-face {
 	font-family: 'Amazon Ember';
-	src: url('/fonts/AmazonEmber_He.ttf') format('truetype');
+	src: url('./AmazonEmber_He.ttf') format('truetype');
 	font-weight:900;
 	font-style:normal;
 }
 
 @font-face {
 	font-family: 'Amazon Ember';
-	src: url('/fonts/AmazonEmber_HeIt.ttf') format('truetype');
+	src: url('./AmazonEmber_HeIt.ttf') format('truetype');
 	font-weight:900;
 	font-style:italic;
 }
@@ -70,13 +72,13 @@
 //Light
 @font-face {
 	font-family: 'Amazon Ember';
-	src: url('/fonts/AmazonEmber_Lt.ttf') format('truetype');
+	src: url('./AmazonEmber_Lt.ttf') format('truetype');
 	font-weight:lighter;
 	font-style:normal;
 }
 @font-face {
 	font-family: 'Amazon Ember';
-	src: url('/fonts/AmazonEmber_LtIt.ttf') format('truetype');
+	src: url('./AmazonEmber_LtIt.ttf') format('truetype');
 	font-weight:lighter;
 	font-style:italic;
 }
@@ -85,13 +87,13 @@
 //Thin
 @font-face {
 	font-family: 'Amazon Ember';
-	src: url('/fonts/AmazonEmber_Th.ttf') format('truetype');
+	src: url('./AmazonEmber_Th.ttf') format('truetype');
 	font-weight:100;
 	font-style:normal;
 }
 @font-face {
 	font-family: 'Amazon Ember';
-	src: url('/fonts/AmazonEmber_ThIt.ttf') format('truetype');
+	src: url('./AmazonEmber_ThIt.ttf') format('truetype');
 	font-weight:100;
 	font-style:italic;
 }
@@ -101,9 +103,9 @@
 //Regular
 @font-face {
 	font-family: 'Vault Alarm';
-	src: url('/fonts/VaultAlarm-Regular.otf') format('truetype'),
-	url('/fonts/VaultAlarm-Regular.woff') format('woff'),
-	url('/fonts/VaultAlarm-Regular.woff2') format('woff2');
+	src: url('./VaultAlarm-Regular.otf') format('truetype'),
+	url('./VaultAlarm-Regular.woff') format('woff'),
+	url('./VaultAlarm-Regular.woff2') format('woff2');
 	font-weight:normal;
 	font-style:normal;
 }
@@ -111,9 +113,9 @@
 //Sharp
 @font-face {
 	font-family: 'Vault Alarm';
-	src: url('/fonts/VaultAlarm-Sharp.otf') format('truetype'),
-	url('/fonts/VaultAlarm-Sharp.woff') format('woff'),
-	url('/fonts/VaultAlarm-Sharp.woff2') format('woff2');
+	src: url('./VaultAlarm-Sharp.otf') format('truetype'),
+	url('./VaultAlarm-Sharp.woff') format('woff'),
+	url('./VaultAlarm-Sharp.woff2') format('woff2');
 	font-weight:lighter;
 	font-style:normal;
 }
