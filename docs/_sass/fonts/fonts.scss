@@ -1,5 +1,4 @@
 
-
 //############ import font ############
 
 //Regular
@@ -103,8 +102,8 @@
 @font-face {
 	font-family: 'Vault Alarm';
 	src: url('/fonts/VaultAlarm-Regular.otf') format('truetype'),
-	url('VaultAlarm-Regular.woff') format('woff'),
-	url('VaultAlarm-Regular.woff2') format('woff2');
+	url('/fonts/VaultAlarm-Regular.woff') format('woff'),
+	url('/fonts/VaultAlarm-Regular.woff2') format('woff2');
 	font-weight:normal;
 	font-style:normal;
 }
@@ -113,8 +112,8 @@
 @font-face {
 	font-family: 'Vault Alarm';
 	src: url('/fonts/VaultAlarm-Sharp.otf') format('truetype'),
-	url('VaultAlarm-Sharp.woff') format('woff'),
-	url('VaultAlarm-Sharp.woff2') format('woff2');
+	url('/fonts/VaultAlarm-Sharp.woff') format('woff'),
+	url('/fonts/VaultAlarm-Sharp.woff2') format('woff2');
 	font-weight:lighter;
 	font-style:normal;
 }
