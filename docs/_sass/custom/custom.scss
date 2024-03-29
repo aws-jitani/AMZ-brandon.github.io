@@ -66,6 +66,12 @@ $header-height: 5rem !default;
 	margin-top: 2em;
 }
 
+blockquote .important {
+	background:rgba(255, 235, 130, 0.07);
+}
+
+
+
 //############ Left nav ############
 .site-header { 
 	height:5rem; 
