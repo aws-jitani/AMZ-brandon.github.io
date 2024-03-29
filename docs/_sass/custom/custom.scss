@@ -1,4 +1,4 @@
-@import "../../docs/_sass/fonts/fonts";
+//@import "../../docs/_sass/fonts/fonts";
 @import url('https://d1uznvntk80v7s.cloudfront.net/fonts/AmazonEmber_W_Rg.woff2');
 //@import "fonts/fonts";
 //@import "../../collections/_fonts/fonts";
@@ -42,11 +42,11 @@ line-height: 1.75; /* 160% */
 
 .main-content h1 {
     
-	  //color: #E7E7E7;
-	  color:#F70909;
+	  color: #E7E7E7;
+	
 	  font-family: "Vault Alarm";
-	  font-weight: 600;
-	  font-size: 36px;
+	  font-weight: normal;
+	  font-size: 24px !important;
 	  font-style: normal;
 	  //line-height: 2 !default;
 	  margin-top:0.1em;
