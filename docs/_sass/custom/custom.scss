@@ -14,7 +14,8 @@ $header-height: 5rem !default;
 //############ Classes ############
 
  .body {
-	overflow-y:none !important;
+	//overflow-y:none !important;
+	 position:fixed;
 }
 
 //############ Main ############
@@ -22,12 +23,9 @@ $header-height: 5rem !default;
 .main-header  { 
 	height:5rem; 
 	max-height:5rem; 
-}
-
-.search {
-	position: sticky !important;
+	position: sticky;
 	top: 0;
-  	z-index: 999;
+	z-index: 999;
 }
 
 .main-content-wrap {  
