@@ -35,15 +35,16 @@ line-height: 1.75; /* 160% */
 
 
 .main-content {
-	.h1 {
-  color: #E7E7E7;
-  font-family: "Vault Alarm";
-  font-weight: 600;
-  font-size: 36px;
-  font-style: normal;
-  //line-height: 2 !default;
-  margin-top:0.1em;
-  margin-bottom:1em;
+     .h1 {
+	  //color: #E7E7E7;
+	  color:#F70909;
+	  font-family: "Vault Alarm";
+	  font-weight: 600;
+	  font-size: 36px;
+	  font-style: normal;
+	  //line-height: 2 !default;
+	  margin-top:0.1em;
+	  margin-bottom:1em;
 	}
 }
 
@@ -51,8 +52,15 @@ line-height: 1.75; /* 160% */
 
 
 //############ Left nav ############
-.site-header { height:5rem; max-height:5rem; min-height: 5rem;} 
-.site-logo { width:65%; height:65%; } 
+.site-header { 
+	height:5rem; 
+	max-height:5rem; 
+	min-height: 5rem;
+} 
+.site-logo { 
+	width:65%; 
+	height:65%; 
+} 
 
 .site-title {
 	.lh-tight {
